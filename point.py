@@ -23,7 +23,7 @@ def main():
     print("The point ({}, {}) is at a distance of {} from the origin.".format(p1.x, p1.y, p1.abs()))
 
     p2 = Point(-1.0, 6.5)
-    print("It is a distance {:.4} away from the point ({}, {}).".format(p1.dist_to(p2), p2.x, p2.y))
+    print("It is a distance {:.5} away from the point ({}, {}).".format(p1.dist_to(p2), p2.x, p2.y))
 
 
 if __name__ == "__main__":
